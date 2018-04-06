@@ -3,53 +3,53 @@
 
 Implementations of different data structures and algorithms in different programming languages. The idea of this project is to learn, to better myself, and to practice.
 
-| Data Structure                                                | Status           |
-| ------------------------------------------------------------- |:----------------:|
-| Singly Linked List                                            | TODO             |
-| Doubly Linked List                                            | TODO             |
-| Binary Search Tree                                            | TODO             |
-| Heap                                                          | TODO             |
-| Set                                                           | TODO             |
-| Queue                                                         | TODO             |
-| AVL Tree                                                      | TODO             |
+| Data Structure                        | Status C++       | Status C#        | Status Java      |
+| --------------------------------------|:----------------:|:----------------:|:----------------:|
+| Singly Linked List                    | Implemented      | TODO             | TODO             |
+| Doubly Linked List                    | TODO             | TODO             | TODO             |
+| Binary Search Tree                    | TODO             | TODO             | TODO             |
+| Heap                                  | TODO             | TODO             | TODO             |
+| Set                                   | TODO             | TODO             | TODO             |
+| Queue                                 | TODO             | TODO             | TODO             |
+| AVL Tree                              | TODO             | TODO             | TODO             |
 
 
 ## Sorting
 
-| Algorithm                            | Status           |
-| ------------------------------------ |:----------------:|
-| Bubble Sort                          | TODO             |
-| Merge Sort                           | TODO             |
-| Quick Sort                           | TODO             |
-| Insertion Sort                       | TODO             |
-| Shell Sort                           | TODO             |
-| Radix Sort                           | TODO             |
+| Algorithm                            | Status C++       | Status C#        | Status Java      |
+| ------------------------------------ |:----------------:|:----------------:|:----------------:|
+| Bubble Sort                          | TODO             | TODO             | TODO             |
+| Merge Sort                           | TODO             | TODO             | TODO             |
+| Quick Sort                           | TODO             | TODO             | TODO             |
+| Insertion Sort                       | TODO             | TODO             | TODO             |
+| Shell Sort                           | TODO             | TODO             | TODO             |
+| Radix Sort                           | TODO             | TODO             | TODO             |
 
 ## Searching
 
-| Algorithm                            | Status           |
-| ------------------------------------ |:----------------:|
-| Sequential Search                    | TODO             |
-| Probability Search                   | TODO             |
+| Algorithm                            | Status           | Status C#        | Status Java      |
+| ------------------------------------ |:----------------:|:----------------:|:----------------:|
+| Sequential Search                    | TODO             | TODO             | TODO             |
+| Probability Search                   | TODO             | TODO             | TODO             |
 
-## Numberic
+## Numeric
 
-| Algorithm                            | Status           |
-| ------------------------------------ |:----------------:|
-| Primality Test                       | TODO             |
-| Base Conversions                     | TODO             |
-| Greatest Common Denominator          | TODO             |
-| Factorials                           | TODO             |
+| Algorithm                            | Status           | Status C#        | Status Java      |
+| ------------------------------------ |:----------------:|:----------------:|:----------------:|
+| Primality Test                       | TODO             | TODO             | TODO             |
+| Base Conversions                     | TODO             | TODO             | TODO             |
+| Greatest Common Denominator          | TODO             | TODO             | TODO             |
+| Factorials                           | TODO             | TODO             | TODO             |
 
 ## Strings
 
-| Algorithm                            | Status           |
-| ------------------------------------ |:----------------:|
-| Reversing the order of words         | TODO             |
-| Detecting Palindromes                | TODO             |
-| Counting the number of words         | TODO             |
-| Number of repeated words             | TODO             |
-| First matching character             | TODO             |
+| Algorithm                            | Status           | Status C#        | Status Java      |
+| ------------------------------------ |:----------------:|:----------------:|:----------------:|
+| Reversing the order of words         | TODO             | TODO             | TODO             |
+| Detecting Palindromes                | TODO             | TODO             | TODO             |
+| Counting the number of words         | TODO             | TODO             | TODO             |
+| Number of repeated words             | TODO             | TODO             | TODO             |
+| First matching character             | TODO             | TODO             | TODO             |
 
 
 ## Algorithms
