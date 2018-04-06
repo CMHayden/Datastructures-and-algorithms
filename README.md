@@ -54,8 +54,6 @@ Implementations of different data structures and algorithms in different program
 
 ## Algorithms
 
-* Algorithms Implementations at Princeton University http://algs4.cs.princeton.edu/code/
-* Algorithms at Princeton University http://algs4.cs.princeton.edu/home/
 * Big-O cheat sheet http://bigocheatsheet.com/
 * Computer Science animated http://www.csanimated.com
 * AlgoList http://www.algolist.net/
@@ -63,8 +61,6 @@ Implementations of different data structures and algorithms in different program
 
 ## Visualizations
 
-* Data Structure Visualizations http://www.cs.usfca.edu/~galles/visualization/Algorithms.html
-* Visualizations by Steven Halim http://www.comp.nus.edu.sg/~stevenha/visualization/
 * Sorting Algorithms http://www.sorting-algorithms.com/
 * Algomations http://www.algomation.com/
 
