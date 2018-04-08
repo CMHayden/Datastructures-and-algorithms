@@ -5,7 +5,7 @@ Implementations of different data structures and algorithms in different program
 
 | Data Structure                        | Status C++       | Status C#        | Status Java      |
 | --------------------------------------|:----------------:|:----------------:|:----------------:|
-| Singly Linked List                    | Implemented      | TODO             | TODO             |
+| Singly Linked List                    | Implemented      | TODO             | Implemented      |
 | Doubly Linked List                    | Implemented      | TODO             | TODO             |
 | Binary Search Tree                    | TODO             | TODO             | TODO             |
 | Heap                                  | TODO             | TODO             | TODO             |
