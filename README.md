@@ -18,10 +18,11 @@ Implementations of different data structures and algorithms in different program
 
 | Algorithm                            | Status C++       | Status C#        | Status Java      |
 | ------------------------------------ |:----------------:|:----------------:|:----------------:|
-| Bubble Sort                          | TODO             | TODO             | TODO             |
+| Bubble Sort                          | Implemented      | TODO             | TODO             |
+| Selection Sort                       | Implemented      | TODO             | TODO             |
 | Merge Sort                           | TODO             | TODO             | TODO             |
 | Quick Sort                           | TODO             | TODO             | TODO             |
-| Insertion Sort                       | TODO             | TODO             | TODO             |
+| Insertion Sort                       | Implemented      | TODO             | TODO             |
 | Shell Sort                           | TODO             | TODO             | TODO             |
 | Radix Sort                           | TODO             | TODO             | TODO             |
 
