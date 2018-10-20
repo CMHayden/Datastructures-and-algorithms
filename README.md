@@ -21,7 +21,7 @@ Implementations of different data structures and algorithms in different program
 | Bubble Sort                          | Implemented      | TODO             | TODO             |
 | Selection Sort                       | Implemented      | TODO             | TODO             |
 | Merge Sort                           | TODO             | TODO             | TODO             |
-| Quick Sort                           | TODO             | TODO             | TODO             |
+| Quick Sort                           | Implemented      | TODO             | TODO             |
 | Insertion Sort                       | Implemented      | TODO             | TODO             |
 | Shell Sort                           | TODO             | TODO             | TODO             |
 | Radix Sort                           | TODO             | TODO             | TODO             |
