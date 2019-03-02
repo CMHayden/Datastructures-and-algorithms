@@ -41,6 +41,8 @@ Implementations of different data structures and algorithms in different program
 | Base Conversions                     | TODO             | TODO             |
 | Greatest Common Denominator          | TODO             | TODO             |
 | Factorials                           | TODO             | TODO             |
+| Detecting Palindromes                | Implemented      | Implemented      |
+
 
 ## Strings
 
