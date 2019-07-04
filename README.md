@@ -38,7 +38,7 @@ Implementations of different data structures and algorithms in different program
 | Algorithm                            | Status C++       | Status Java      | 
 | ------------------------------------ |:----------------:|:----------------:|
 | Primality Test                       | Implemented      | Implemented      |
-| Base Conversions                     | TODO             | TODO             |
+| Base Conversions                     | Implemented      | TODO             |
 | Greatest Common Denominator          | TODO             | TODO             |
 | Factorials                           | TODO             | TODO             |
 | Detecting Palindromes                | Implemented      | Implemented      |
