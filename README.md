@@ -1,72 +1,56 @@
 
-## Data Structures & Algorithms
+# Data Structures & Algorithms
 
-Implementations of different data structures and algorithms in different programming languages. The idea of this project is to learn, to better myself, and to practice.
+Implementations of different data structures and algorithms in different programming languages.
 
-| Data Structure                        | Status C++       | Status Java      |
-| --------------------------------------|:----------------:|:----------------:|
-| Singly Linked List                    | Implemented      | Implemented      |
-| Doubly Linked List                    | Implemented      | TODO             |
-| Binary Search Tree                    | TODO             | TODO             |
-| Heap                                  | TODO             | TODO             |
-| Set                                   | TODO             | TODO             |
-| Queue                                 | TODO             | TODO             |
-| AVL Tree                              | TODO             | TODO             |
+The goal of this project is to practice and learn algorithms and data structures, while challenging myself to pick up new languages syntax to complete these exercises in those languages too.
 
+---
 
-## Sorting
+## Getting started
 
-| Algorithm                            | Status C++       | Status Java      |
-| ------------------------------------ |:----------------:|:----------------:|
-| Bubble Sort                          | Implemented      | TODO             |
-| Selection Sort                       | Implemented      | TODO             |
-| Merge Sort                           | TODO             | TODO             |
-| Quick Sort                           | Implemented      | TODO             |
-| Insertion Sort                       | Implemented      | TODO             |
-| Shell Sort                           | TODO             | TODO             |
-| Radix Sort                           | TODO             | TODO             |
+To run the C++ applications you can use these commands in your cmd.
 
-## Searching
+```console
+callumhayden$ sudo g++ name.cpp
+callumhayden$ ./a.out
+```
 
-| Algorithm                            | Status C++       | Status Java      |
-| ------------------------------------ |:----------------:|:----------------:|
-| Sequential Search                    | TODO             | TODO             |
-| Probability Search                   | TODO             | TODO             |
+If these commands don´t work, I would suggest ensuring g++ is installed by runnig this command:
 
-## Numeric
+```console
+callumhayden$ g++ -v
+```
 
-| Algorithm                            | Status C++       | Status Java      | 
-| ------------------------------------ |:----------------:|:----------------:|
-| Primality Test                       | Implemented      | Implemented      |
-| Base Conversions                     | TODO             | TODO             |
-| Greatest Common Denominator          | TODO             | TODO             |
-| Factorials                           | TODO             | TODO             |
-| Detecting Palindromes                | Implemented      | Implemented      |
+To run the Java applications, you can use these commands in your cmd:
 
+```console
+callumhayden$ javac name.java
+callumhayden$ java name
+```
 
-## Strings
-
-| Algorithm                            | Status C++       | Status Java      |
-| ------------------------------------ |:----------------:|:----------------:|
-| Reversing the order of words         | TODO             | TODO             |
-| Detecting Palindromes                | TODO             | TODO             |
-| Counting the number of words         | TODO             | TODO             |
-| Number of repeated words             | TODO             | TODO             |
-| First matching character             | TODO             | TODO             |
-
+---
 
 ## Algorithms
+
+Here are some websites I found extremely useful when learning algorithms and data structures:
 
 * Big-O cheat sheet http://bigocheatsheet.com/
 * Computer Science animated http://www.csanimated.com
 * AlgoList http://www.algolist.net/
 * GeeksForGeeks http://www.geeksforgeeks.org/
 
+---
+
 ## Visualizations
+
+Here are some visualization tools I used to help learn different algorithms:
 
 * Sorting Algorithms http://www.sorting-algorithms.com/
 * Algomations http://www.algomation.com/
 
-## Books
+---
 
-* Data strcutures and algorithms - Granville Barnett & Luca Del Tongo
+## Contributing
+
+Interested in contributing to this guestbook? I'd love to hear any suggestions on what to improve, any contributions you can make, and any feedback on the project. Please feel free to create [a new issue with your ideas](https://github.com/CMHayden/Datastructures-and-algorithms/issues/new) and I'll be in touch asap.
