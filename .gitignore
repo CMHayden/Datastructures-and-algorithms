@@ -1,5 +1,5 @@
-
-# Created by (great site gitignore.io) https://www.gitignore.io/api/c++,java,python,eclipse,visualstudio
+# Created by https://www.gitignore.io/api/c++,java,linux,macos,python,windows,eclipse,visualstudio,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=c++,java,linux,macos,python,windows,eclipse,visualstudio,visualstudiocode
 
 ### C++ ###
 # Prerequisites
@@ -36,7 +36,6 @@
 *.app
 
 ### Eclipse ###
-
 .metadata
 bin/
 tmp/
@@ -61,6 +60,9 @@ local.properties
 # CDT-specific (C/C++ Development Tooling)
 .cproject
 
+# CDT- autotools
+.autotools
+
 # Java annotation processor (APT)
 .factorypath
 
@@ -82,17 +84,25 @@ local.properties
 # Code Recommenders
 .recommenders/
 
+# Annotation Processing
+.apt_generated/
+
 # Scala IDE specific (Scala & Java development for Eclipse)
 .cache-main
 .scala_dependencies
 .worksheet
 
 ### Eclipse Patch ###
-# Eclipse Core		
+# Eclipse Core
 .project
 
-# JDT-specific (Eclipse Java Development Tools)		
+# JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Annotation Processing
+.apt_generated
+
+.sts4-cache/
 
 ### Java ###
 # Compiled class file
@@ -110,6 +120,7 @@ local.properties
 # Package Files #
 *.jar
 *.war
+*.nar
 *.ear
 *.zip
 *.tar.gz
@@ -117,6 +128,49 @@ local.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -140,9 +194,12 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -157,18 +214,24 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+.nox/
 .coverage
 .coverage.*
 .cache
-.pytest_cache/
 nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+.pytest_cache/
 
 # Translations
 *.mo
 *.pot
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -186,11 +249,22 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# IPython
+profile_default/
+ipython_config.py
+
 # pyenv
 .python-version
 
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
 # celery beat schedule file
-celerybeat-schedule.*
+celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
@@ -216,6 +290,48 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -224,6 +340,7 @@ venv.bak/
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
+*.rsuser
 *.suo
 *.user
 *.userosscache
@@ -232,6 +349,9 @@ venv.bak/
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Mono auto generated files
+mono_crash.*
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -239,41 +359,55 @@ venv.bak/
 [Rr]eleases/
 x64/
 x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
 bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
 
-# Visual Studio 2015 cache/options directory
+# Visual Studio 2015/2017 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-# NUNIT
+# NUnit
 *.VisualState.xml
 TestResult.xml
+nunit-*.xml
 
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
 
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
 artifacts/
-**/Properties/launchSettings.json
 
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
 *_i.c
 *_p.c
-*_i.h
+*_h.h
 *.ilk
 *.meta
+*.iobj
 *.pdb
+*.ipdb
 *.pgc
 *.pgd
 *.rsp
@@ -282,6 +416,7 @@ artifacts/
 *.tli
 *.tlh
 *.tmp_proj
+*_wpftmp.csproj
 *.vspscc
 *.vssscc
 .builds
@@ -309,6 +444,9 @@ ipch/
 *.vspx
 *.sap
 
+# Visual Studio Trace Files
+*.e2e
+
 # TFS 2012 Local Workspace
 $tf/
 
@@ -328,6 +466,10 @@ _TeamCity*
 
 # DotCover is a Code Coverage Tool
 *.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
 
 # Visual Studio code coverage results
 *.coverage
@@ -364,11 +506,9 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Uncomment the next line to ignore your web deploy settings.
-# By default, sensitive information, such as encrypted password
-# should be stored in the .pubxml.user file.
-#*.pubxml
-*.pubxml.user
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
 *.publishproj
 
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
@@ -378,12 +518,14 @@ PublishScripts/
 
 # NuGet Packages
 *.nupkg
+# NuGet Symbol Packages
+*.snupkg
 # The packages folder can be ignored because of Package Restore
-**/packages/*
+**/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
-!**/packages/build/
+!**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
-#!**/packages/repositories.config
+#!**/[Pp]ackages/repositories.config
 # NuGet v3's project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets
@@ -401,23 +543,29 @@ AppPackages/
 BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
 # but keep track of directories ending in .cache
-!*.[Cc]ache/
+!?*.[Cc]ache/
 
 # Others
 ClientBin/
 ~$*
-*~
 *.dbmdl
 *.dbproj.schemaview
 *.jfm
 *.pfx
 *.publishsettings
 orleans.codegen.cs
+
+# Including strong name files can present a security risk
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
@@ -433,6 +581,8 @@ _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
 
 # SQL Server files
 *.mdf
@@ -443,6 +593,10 @@ UpgradeLog*.htm
 *.rdl.data
 *.bim.layout
 *.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
 
 # Microsoft Fakes
 FakesAssemblies/
@@ -453,9 +607,6 @@ FakesAssemblies/
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 node_modules/
-
-# Typescript v1 declaration files
-typings/
 
 # Visual Studio 6 build log
 *.plg
@@ -481,12 +632,8 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
-# JetBrains Rider
-.idea/
-*.sln.iml
-
-# CodeRush
-.cr/
+# CodeRush personal settings
+.cr/personal
 
 # Python Tools for Visual Studio (PTVS)
 *.pyc
@@ -494,6 +641,9 @@ paket-files/
 # Cake - Uncomment if you are using it
 # tools/**
 # !tools/packages.config
+
+# Tabs Studio
+*.tss
 
 # Telerik's JustMock configuration file
 *.jmconfig
@@ -504,9 +654,28 @@ paket-files/
 *.odx.cs
 *.xsd.cs
 
-### VisualStudio Patch ###
-# By default, sensitive information, such as encrypted password
-# should be stored in the .pubxml.user file.
+# OpenCover UI analysis results
+OpenCover/
 
+# Azure Stream Analytics local run output
+ASALocalRun/
 
-# End of https://www.gitignore.io/api/c++,java,python,eclipse,visualstudio
+# MSBuild Binary and Structured Log
+*.binlog
+
+# NVidia Nsight GPU debugger configuration file
+*.nvuser
+
+# MFractors (Xamarin productivity tool) working folder
+.mfractor/
+
+# Local History for Visual Studio
+.localhistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# End of https://www.gitignore.io/api/c++,java,linux,macos,python,windows,eclipse,visualstudio,visualstudiocode
